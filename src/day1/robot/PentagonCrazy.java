@@ -19,7 +19,7 @@ public class PentagonCrazy {
 	GG.setRandomPenColor();
 	GG.setPenWidth(5);
 		// 4. Make a variable for the number of sides you want (can’t test this one)
-	int side = 15;
+	int side = 5;
 		// 5. Make a variable for the angle you want the robot to turn. Hint: you can divide in Java using "/". Can’t test until step 6.
 	int angle = 360/side;
 		// 7. Do steps #2 to #11, 200 times. When this is done you should see a pentagon.
