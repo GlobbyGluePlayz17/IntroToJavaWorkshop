@@ -15,6 +15,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 
+
 public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 	
 	BufferedImage maze;
@@ -75,7 +76,7 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 
 	@Override
 	public void run() {
-		JFrame frame = new JFrame("June's Scary Maze");
+		JFrame frame = new JFrame("Rachel's Scary Maze");
 		frame.add(this);
 		setPreferredSize(new Dimension(frameWidth, frameHeight));
 		frame.pack();
@@ -91,5 +92,5 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 
 	@Override
 	public void mouseDragged(MouseEvent e) {}
-
+		
 }
